@@ -7,8 +7,8 @@ public class GridGraph
     public int Height;
 
     public Node[,] Grid;
-    public List<Vector2> Walls;
-    public List<Vector2> Forests;
+    public List<Vector2> Walls = new List<Vector2>();
+    public List<Vector2> Forests = new List<Vector2>();
 
     public GridGraph(int w, int h)
     {
